@@ -14,7 +14,7 @@ def split_audio(input_file, output_prefix, segment_length_ms):
         segment.export(f"{output_prefix}_{i}.wav", format="wav")
 
 # Example usage:
-input_file = "D:\machine_learning\audio_detection\iam_a_rider.wav"
-output_prefix = "263"
+input_file = "file_name"
+output_prefix = "back_name"
 segment_length_ms = 4000  # Length of each segment in milliseconds (5 seconds in this example)
 split_audio(input_file, output_prefix, segment_length_ms)
